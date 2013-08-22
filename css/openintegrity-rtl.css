@@ -399,6 +399,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .index-activity h4 a,
 .index-browse h4 a{
   color: #4D4D4D;
+  margin-right: 51px;
+}
+
+.language-link {
+ margin-top:0;	
+ position:relative;
 }
 
 .claim {
