@@ -1,6 +1,6 @@
 @media(min-width:980px) and (max-width:1199px),(min-width:1200px){body{padding-top:10px}}body.toolbar .navbar-fixed-top{top:10px}body.toolbar-drawer .navbar-fixed-top{top:10px}
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
 
 /* -- Typography
@@ -579,8 +579,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .index-trigger {
   background: url('../img/caret-up.png') no-repeat top center;
   cursor: pointer;
-  float: right;
-  margin-left: 22px;
+  float: left;
+  margin-right: 22px;
+  margin-left:0;
   width: 8px;
   height: 6px;
   display: block;
@@ -605,7 +606,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: 10px;
 }
 .view-entry .group-level-1 .subcriteria-score {
-  float: right;
+  float: left;
   background-color: #f8f8fc;
   padding: 30px 30px;
   border-left: #f1eff7 solid 1px;
@@ -709,7 +710,7 @@ h3.nested-title .span-block {
 }
 
 .index-node {
-  margin-left: 30px;
+  margin-left: 0;
 }
 
 .row-entry {
